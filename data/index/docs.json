@@ -1,0 +1,72 @@
+[
+  {
+    "id": "q1",
+    "title": "What is menstruation?",
+    "question": "What is menstruation?",
+    "answer": "Menstruation (period) is the monthly shedding of the uterine lining. It's a natural biological process showing that the body is releasing the lining when a pregnancy hasn't occurred. Typical cycles are about 21-35 days; bleeding usually lasts 2-7 days. If you feel confused or have heavy pain or very heavy bleeding, see a healthcare provider.",
+    "text": "What is menstruation?\nQ: What is menstruation?\nA: Menstruation (period) is the monthly shedding of the uterine lining. It's a natural biological process showing that the body is releasing the lining when a pregnancy hasn't occurred. Typical cycles are about 21-35 days; bleeding usually lasts 2-7 days. If you feel confused or have heavy pain or very heavy bleeding, see a healthcare provider."
+  },
+  {
+    "id": "q2",
+    "title": "Why do girls get periods?",
+    "question": "Why do girls get periods?",
+    "answer": "Girls get periods because of hormonal cycles that prepare the womb each month. If no pregnancy occurs, the lining sheds and is released as menstrual blood.",
+    "text": "Why do girls get periods?\nQ: Why do girls get periods?\nA: Girls get periods because of hormonal cycles that prepare the womb each month. If no pregnancy occurs, the lining sheds and is released as menstrual blood."
+  },
+  {
+    "id": "q3",
+    "title": "At what age do periods usually start?",
+    "question": "At what age do periods usually start?",
+    "answer": "Periods commonly start between ages 9 and 16. Many start around 11–13, but a bit earlier or later can still be normal.",
+    "text": "At what age do periods usually start?\nQ: At what age do periods usually start?\nA: Periods commonly start between ages 9 and 16. Many start around 11–13, but a bit earlier or later can still be normal."
+  },
+  {
+    "id": "q4",
+    "title": "Pain and cramps",
+    "question": "Why do I get cramps during periods?",
+    "answer": "Cramps happen because the uterus tightens to help shed its lining. Mild cramps are common and may be eased with heat (hot water bottle), gentle exercise, ibuprofen (following dose guidance), and relaxation techniques. If severe, speak to a doctor.",
+    "text": "Pain and cramps\nQ: Why do I get cramps during periods?\nA: Cramps happen because the uterus tightens to help shed its lining. Mild cramps are common and may be eased with heat (hot water bottle), gentle exercise, ibuprofen (following dose guidance), and relaxation techniques. If severe, speak to a doctor."
+  },
+  {
+    "id": "q5",
+    "title": "Hygiene",
+    "question": "How often should I change my pad?",
+    "answer": "Change sanitary pads every 4-6 hours or sooner if soaked. If using tampons, follow the product’s instructions and never leave one in longer than recommended (usually 4-8 hours).",
+    "text": "Hygiene\nQ: How often should I change my pad?\nA: Change sanitary pads every 4-6 hours or sooner if soaked. If using tampons, follow the product’s instructions and never leave one in longer than recommended (usually 4-8 hours)."
+  },
+  {
+    "id": "q6",
+    "title": "Unexpected periods",
+    "question": "What should I do if my period starts at school unexpectedly?",
+    "answer": "Stay calm. Go to the restroom, clean up with water or sanitary wipes, change into a pad or tampon, tie a sweater around the waist if there's a stain, and ask a teacher or friend for a sanitary pad if you don't have one. Schools often have supplies available.",
+    "text": "Unexpected periods\nQ: What should I do if my period starts at school unexpectedly?\nA: Stay calm. Go to the restroom, clean up with water or sanitary wipes, change into a pad or tampon, tie a sweater around the waist if there's a stain, and ask a teacher or friend for a sanitary pad if you don't have one. Schools often have supplies available."
+  },
+  {
+    "id": "q7",
+    "title": "Heavy flow",
+    "question": "My flow is very heavy — is that normal?",
+    "answer": "Some variation is normal, but if you need to change pads/tampons every hour for several hours, pass very large clots, or feel faint, see a doctor — it could indicate a condition that needs treatment.",
+    "text": "Heavy flow\nQ: My flow is very heavy — is that normal?\nA: Some variation is normal, but if you need to change pads/tampons every hour for several hours, pass very large clots, or feel faint, see a doctor — it could indicate a condition that needs treatment."
+  },
+  {
+    "id": "q8",
+    "title": "Emotional symptoms",
+    "question": "Why do I feel sad or angry before my period?",
+    "answer": "Mood changes before a period are common (PMS). Balanced diet, sleep, gentle exercise, and tracking symptoms help. If mood swings are severe, talk with a health professional.",
+    "text": "Emotional symptoms\nQ: Why do I feel sad or angry before my period?\nA: Mood changes before a period are common (PMS). Balanced diet, sleep, gentle exercise, and tracking symptoms help. If mood swings are severe, talk with a health professional."
+  },
+  {
+    "id": "q9",
+    "title": "Swimming",
+    "question": "Can I swim during my period?",
+    "answer": "Yes — you can swim. Use a tampon or menstrual cup for comfort and to avoid staining. Change or remove these after the recommended time.",
+    "text": "Swimming\nQ: Can I swim during my period?\nA: Yes — you can swim. Use a tampon or menstrual cup for comfort and to avoid staining. Change or remove these after the recommended time."
+  },
+  {
+    "id": "q10",
+    "title": "First period",
+    "question": "How do I know if I’m about to get my first period?",
+    "answer": "Common signs: light spotting, breast tenderness, cramps, and mood changes. Keep pads ready and talk to a trusted adult about what to expect.",
+    "text": "First period\nQ: How do I know if I’m about to get my first period?\nA: Common signs: light spotting, breast tenderness, cramps, and mood changes. Keep pads ready and talk to a trusted adult about what to expect."
+  }
+]

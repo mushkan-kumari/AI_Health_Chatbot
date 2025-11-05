@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+sentence-transformers
+faiss-cpu
+transformers
+openai
+python-dotenv
+pydantic
+scikit-learn
+requests
+pandas
+tqdm
