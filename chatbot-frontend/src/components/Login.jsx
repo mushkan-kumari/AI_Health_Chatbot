@@ -82,6 +82,7 @@ export default function Login({ onLogin }) {
 
 import { useState } from "react";
 import { registerUser, loginUser } from "../db";
+const API_BASE = import.meta.env.VITE_API_URL || "http://127.0.0.1:8000";
 
 export default function Login({ onLogin }) {
   const [username, setUsername] = useState("");

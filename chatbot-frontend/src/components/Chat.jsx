@@ -900,6 +900,8 @@ import {
   FaMicrophone,
   FaStop,
 } from "react-icons/fa";
+const API_BASE = import.meta.env.VITE_API_URL || "http://127.0.0.1:8000";
+
 
 const FAQS = [
   "Why do girls get periods?",
@@ -1012,7 +1014,7 @@ useEffect(() => {
     setLoading(true);
 
     try {
-      const res = await fetch("http://127.0.0.1:8000/chat", {
+      const res = await fetch(`${API_BASE}/chat`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ question }),
@@ -1111,7 +1113,7 @@ useEffect(() => {
     const formData = new FormData();
     formData.append("file", audioBlob, "speech.webm");
     try {
-      const response = await fetch("http://127.0.0.1:8000/transcribe", {
+      const res = await fetch(`${API_BASE}/transcribe`, {
         method: "POST",
         body: formData,
       });

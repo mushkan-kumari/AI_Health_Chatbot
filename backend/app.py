@@ -131,4 +131,3 @@ async def transcribe_audio(file: UploadFile = File(...)):
     os.remove("temp_audio.wav")
 
     return {"text": result["text"]}
-
