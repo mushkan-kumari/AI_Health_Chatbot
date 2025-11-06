@@ -1117,7 +1117,7 @@ useEffect(() => {
         method: "POST",
         body: formData,
       });
-      const data = await response.json();
+      const data = await res.json();
       inputRef.current.value = data.text || "";
     } catch (error) {
       console.error("Error sending audio:", error);
