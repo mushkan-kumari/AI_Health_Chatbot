@@ -46,18 +46,24 @@ async def chat(q: Query):
 """
 
 import os
-from fastapi import FastAPI
+from fastapi import FastAPI, File, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from retriever import Retriever
 from dotenv import load_dotenv
 import ollama
+from speech_module import router as speech_router
+import whisper
 
 load_dotenv()
 
 MODEL_NAME = os.getenv("MODEL_NAME", "llama3.2:1b")
 
 app = FastAPI()
+
+
+# Add the router
+app.include_router(speech_router)
 
 # --- Enable CORS so frontend can call backend ---
 app.add_middleware(
@@ -67,6 +73,13 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+
+# Load Whisper model once (can be 'tiny', 'base', 'small', 'medium', 'large')
+model = whisper.load_model("small")
+
+
+
 
 retriever = Retriever()
 
@@ -103,3 +116,19 @@ async def chat(q: Query):
 
     except Exception as e:
         return {"error": str(e)}
+    
+
+@app.post("/transcribe")
+async def transcribe_audio(file: UploadFile = File(...)):
+    # Save the uploaded file temporarily
+    with open("temp_audio.wav", "wb") as f:
+        f.write(await file.read())
+
+    # Transcribe using Whisper
+    result = model.transcribe("temp_audio.wav")
+
+    # Remove temp file
+    os.remove("temp_audio.wav")
+
+    return {"text": result["text"]}
+
