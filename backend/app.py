@@ -10,7 +10,7 @@ import ollama
 from .speech_module import router as speech_router
 import whisper
 
-load_dotenv()
+load_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), '.env'))
 
 MODEL_NAME = os.getenv("MODEL_NAME", "llama3.2:1b")
 
