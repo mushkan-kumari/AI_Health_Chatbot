@@ -49,10 +49,10 @@ import os
 from fastapi import FastAPI, File, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-from backend.retriever import Retriever
+from retriever import Retriever
 from dotenv import load_dotenv
 import ollama
-from backend.speech_module import router as speech_router
+from speech_module import router as speech_router
 import whisper
 
 load_dotenv()
